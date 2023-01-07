@@ -1,0 +1,216 @@
+Script started on Sun 21 Nov 2021 03:17:51 PM PST
+]0;mekae002@empress:~/HW/HW6[?1034h[mekae002@empress HW6]$ ls
+dgraph.cpp  hw6client.cpp  llist.h    slist.h    ,Test.txt
+dgraph.h    llist.cpp      slist.cpp  table.txt
+]0;mekae002@empress:~/HW/HW6[mekae002@empress HW6]$ g++ dgraph.cpp hw6client.cpp llist.cpp slist.cpp 
+]0;mekae002@empress:~/HW/HW6[mekae002@empress HW6]$ ./a.out
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+... in llist constructor...
+slist constructor: 
+Opening table.txt
+Enter a file name: table.txt
+Vertex is: A
+Out Degree: 2
+Adjacent Values: 
+[B F ]
+Visit Number is: 0
+
+Vertex is: B
+Out Degree: 2
+Adjacent Values: 
+[C G ]
+Visit Number is: 0
+
+Vertex is: C
+Out Degree: 1
+Adjacent Values: 
+[H ]
+Visit Number is: 0
+
+Vertex is: D
+Out Degree: 0
+Adjacent Values: 
+[ empty ]
+Visit Number is: 0
+
+Vertex is: E
+Out Degree: 0
+Adjacent Values: 
+[ empty ]
+Visit Number is: 0
+
+Vertex is: F
+Out Degree: 2
+Adjacent Values: 
+[I E ]
+Visit Number is: 0
+
+Vertex is: G
+Out Degree: 0
+Adjacent Values: 
+[ empty ]
+Visit Number is: 0
+
+Vertex is: H
+Out Degree: 2
+Adjacent Values: 
+[G I ]
+Visit Number is: 0
+
+Vertex is: I
+Out Degree: 3
+Adjacent Values: 
+[A G E ]
+Visit Number is: 0
+
+What do you want to do?:
+1. Pick a vertex
+2. Find the out degree of the vertex
+3. Find Adjacency of the vertex and display the result
+4. Exit
+Enter 1, 2, 3, or 4: 1
+... in llist constructor...
+slist constructor: 
+What vertex would you like to search for?: a
+Searching for vertex A
+.... in llist destructor...
+The adjacency list for that vertex is:
+[B F ]
+.... in llist destructor...
+What do you want to do?:
+1. Pick a vertex
+2. Find the out degree of the vertex
+3. Find Adjacency of the vertex and display the result
+4. Exit
+Enter 1, 2, 3, or 4: 2
+What vertex would you like to search for?: a
+Searching for vertex A
+The out degree for that vertex is: 2
+What do you want to do?:
+1. Pick a vertex
+2. Find the out degree of the vertex
+3. Find Adjacency of the vertex and display the result
+4. Exit
+Enter 1, 2, 3, or 4: 3
+Vertex	Degree	AdjacencyList
+Vertex is: A
+Out Degree: 2
+Adjacent Values: 
+[B F ]
+Visit Number is: 0
+
+Vertex is: B
+Out Degree: 2
+Adjacent Values: 
+[C G ]
+Visit Number is: 0
+
+Vertex is: C
+Out Degree: 1
+Adjacent Values: 
+[H ]
+Visit Number is: 0
+
+Vertex is: D
+Out Degree: 0
+Adjacent Values: 
+[ empty ]
+Visit Number is: 0
+
+Vertex is: E
+Out Degree: 0
+Adjacent Values: 
+[ empty ]
+Visit Number is: 0
+
+Vertex is: F
+Out Degree: 2
+Adjacent Values: 
+[I E ]
+Visit Number is: 0
+
+Vertex is: G
+Out Degree: 0
+Adjacent Values: 
+[ empty ]
+Visit Number is: 0
+
+Vertex is: H
+Out Degree: 2
+Adjacent Values: 
+[G I ]
+Visit Number is: 0
+
+Vertex is: I
+Out Degree: 3
+Adjacent Values: 
+[A G E ]
+Visit Number is: 0
+
+What do you want to do?:
+1. Pick a vertex
+2. Find the out degree of the vertex
+3. Find Adjacency of the vertex and display the result
+4. Exit
+Enter 1, 2, 3, or 4: 4
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+]0;mekae002@empress:~/HW/HW6[mekae002@empress HW6]$ exit
+exit
+
+Script done on Sun 21 Nov 2021 03:22:29 PM PST

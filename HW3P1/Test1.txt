@@ -1,0 +1,25 @@
+Script started on Sat 09 Oct 2021 11:46:27 PM PDT
+]0;mekae002@empress:~/HW/HW3[?1034h[mekae002@empress HW3]$ g++ llist.cpp llist.h HW3P1client.cpp
+[01m[Kllist.cpp:[m[K In member function ‘[01m[Kvoid llist::displayAll()[m[K’:
+[01m[Kllist.cpp:55:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+   } else {
+[01;32m[K     ^[m[K
+[01m[Kllist.cpp:[m[K At global scope:
+[01m[Kllist.cpp:61:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ }  // be sure to display horizontally in [  ] with
+[01;32m[K ^[m[K
+[01m[KHW3P1client.cpp:[m[K In function ‘[01m[Kvoid caseOne()[m[K’:
+[01m[KHW3P1client.cpp:64:5:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’)
+    **
+[01;32m[K     ^[m[K
+[01m[KHW3P1client.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KHW3P1client.cpp:298:18:[m[K [01;31m[Kerror: [m[K‘[01m[KcaseTwo[m[K’ was not declared in this scope
+  case 2: caseTwo(); break;
+[01;32m[K                  ^[m[K
+[01m[KHW3P1client.cpp:299:20:[m[K [01;31m[Kerror: [m[K‘[01m[KcaseThree[m[K’ was not declared in this scope
+  case 3: caseThree(); break;
+[01;32m[K                    ^[m[K
+]0;mekae002@empress:~/HW/HW3[mekae002@empress HW3]$ exit
+exit
+
+Script done on Sat 09 Oct 2021 11:48:28 PM PDT

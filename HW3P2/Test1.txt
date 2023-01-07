@@ -1,0 +1,31 @@
+Script started on Sat 23 Oct 2021 11:47:24 PM PDT
+]0;mekae002@empress:~/HW/HW3P2[?1034h[mekae002@empress HW3P2]$ g++ HW3P2[K.cpp slist.cpp
+g++: error: HW3P2.cpp: No such file or directory
+]0;mekae002@empress:~/HW/HW3P2[mekae002@empress HW3P2]$ ls
+HW3P2client.cpp  llist.cpp  llist.h  slist.cpp  slist.h  ,Test1.txt
+]0;mekae002@empress:~/HW/HW3P2[mekae002@empress HW3P2]$ g++ HW3P2.cpp slist.cp[1P/cs/recordhw Test2.tg++ HW3P2.cpp slist.cp[1P/cs/recordhw Test2.tls/cs/recordhw Test2.tg++ HW3P2.cpp slist.cp[1P/cs/recordhw Test2.tg++ HW3P2.cpp slist.cpls[Kg++ HW3P2.cpp slist.c[C[[1@c[1@l[1@i[1@e[1@[1[1[1[1[1P[C[1@c[1@l[1@i[1@e[1@n[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[01m[Kslist.cpp:25:13:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint slist::search(el_t)[m[K’
+         int slist::search(el_t key) {} 
+[01;32m[K             ^[m[K
+In file included from [01m[Kslist.cpp:12:0[m[K:
+[01m[Kslist.h:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kint slist::search(el_t)[m[K’ previously defined here
+     int search(el_t){}
+[01;32m[K         ^[m[K
+[01m[Kslist.cpp:29:10:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid slist::replace(el_t, int)[m[K’
+     void slist::replace(el_t element, int pos) {}
+[01;32m[K          ^[m[K
+In file included from [01m[Kslist.cpp:12:0[m[K:
+[01m[Kslist.h:34:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid slist::replace(el_t, int)[m[K’ previously defined here
+         void replace(el_t, int){}
+[01;32m[K              ^[m[K
+[01m[Kslist.cpp:31:10:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool slist::operator==(const slist&)[m[K’
+     bool slist::operator==(const slist & OtherOne) 
+[01;32m[K          ^[m[K
+In file included from [01m[Kslist.cpp:12:0[m[K:
+[01m[Kslist.h:39:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool slist::operator==(const slist&)[m[K’ previously defined here
+         bool operator==(const slist&){}
+[01;32m[K              ^[m[K
+]0;mekae002@empress:~/HW/HW3P2[mekae002@empress HW3P2]$ exit
+exit
+
+Script done on Sat 23 Oct 2021 11:49:47 PM PDT

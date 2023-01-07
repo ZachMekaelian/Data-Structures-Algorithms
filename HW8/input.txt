@@ -1,0 +1,6 @@
+33 rika CS 20
+20 mary CIS 18
+17 john IT 19
+8  a CS 21
+45 b CIS 19
+82 c IT 18

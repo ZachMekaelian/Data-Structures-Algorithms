@@ -1,0 +1,43 @@
+Script started on Sat 06 Nov 2021 09:22:19 PM PDT
+]0;mekae002@empress:~/HW/HW5[?1034h[mekae002@empress HW5]$ g++ pqclient.cpp pqueue.cpp
+]0;mekae002@empress:~/HW/HW5[mekae002@empress HW5]$ ./a.out
+Adding: 20
+Adding: 12
+Jobs: 12 20 
+Adding: 30
+even
+Adding: 1
+Jobs: 1 12 30 20 
+Adding: 5
+even
+Adding: 6
+even
+Adding: 7
+even
+Adding: 8
+Adding: 9
+even
+Adding: 10
+even
+Adding: 11
+even
+Jobs: 1 5 6 8 10 30 7 20 9 12 11 
+Adding: 50
+Cannot add
+Printing: 1
+Jobs: 5 8 6 9 10 30 7 20 11 12 
+Printing: 5
+Jobs: 6 8 7 9 10 30 12 20 11 
+Printing: 6
+Jobs: 7 8 11 9 10 30 12 20 
+Printing: 7
+Jobs: 8 9 11 20 10 30 12 
+Adding: 2
+Jobs: 2 8 11 9 10 30 12 20 
+Adding: 3
+even
+Jobs: 2 3 11 8 10 30 12 20 9 
+]0;mekae002@empress:~/HW/HW5[mekae002@empress HW5]$ exit
+exit
+
+Script done on Sat 06 Nov 2021 09:23:17 PM PDT

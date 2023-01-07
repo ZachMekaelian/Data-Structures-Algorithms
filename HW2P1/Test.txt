@@ -1,0 +1,15 @@
+Script started on Mon 27 Sep 2021 03:09:08 AM PDT
+]0;mekae002@empress:~/HW/HW2P1[?1034h[mekae002@empress HW2P1]$ exg++ binsearch.cpp
+[01m[Kbinsearch.cpp:55:4:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
+    last = middle – 1;
+[01;32m[K    ^[m[K
+[01m[Kbinsearch.cpp:55:4:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\200[m[K’ in program
+[01m[Kbinsearch.cpp:55:4:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\223[m[K’ in program
+[01m[Kbinsearch.cpp:[m[K In function ‘[01m[Kint binarySearch(int*, int, int, int)[m[K’:
+[01m[Kbinsearch.cpp:55:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before numeric constant
+    last = middle – 1;
+[01;32m[K                      ^[m[K
+]0;mekae002@empress:~/HW/HW2P1[mekae002@empress HW2P1]$ exit
+exit
+
+Script done on Mon 27 Sep 2021 03:09:20 AM PDT

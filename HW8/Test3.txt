@@ -1,0 +1,264 @@
+Script started on Sat 27 Nov 2021 10:41:12 AM PST
+]0;mekae002@empress:~/HW/HW8[?1034h[mekae002@empress HW8]$ ls
+a.out     htable.cpp     hw8demo.out  llist.h     search2    Test1.txt
+elem.cpp  htable.h       input.txt    newout.txt  slist.cpp  Test2.txt
+elem.h    hw8client.cpp  llist.cpp    @@read-me   slist.h    ,Test3.txt
+]0;mekae002@empress:~/HW/HW8[mekae002@empress HW8]$ g++ htable.cpp elem.cpp slist.cpp hw8client.cpp llist.cp p
+]0;mekae002@empress:~/HW/HW8[mekae002@empress HW8]$ ls
+[0m[01;32ma.out[0m     htable.cpp     hw8demo.out  llist.h     search2    Test1.txt
+elem.cpp  htable.h       input.txt    newout.txt  slist.cpp  Test2.txt
+elem.h    hw8client.cpp  llist.cpp    @@read-me   slist.h    ,Test3.txt
+]0;mekae002@empress:~/HW/HW8[mekae002@empress HW8]$ ./a.out
+This application adds/modify/delete elements into a HashTable.
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+What is the input file? (.txt file)input.txt
+0:[ empty ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ empty ]
+6:[ empty ]
+7:[ empty ]
+8:[8 a CS 21 45 b CIS 19 82 c IT 18 ]
+9:[ empty ]
+10:[ empty ]
+11:[ empty ]
+12:[ empty ]
+13:[ empty ]
+14:[ empty ]
+15:[ empty ]
+16:[ empty ]
+17:[17 john IT 19 ]
+18:[ empty ]
+19:[ empty ]
+20:[20 mary CIS 18 ]
+21:[ empty ]
+22:[ empty ]
+23:[ empty ]
+24:[ empty ]
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ empty ]
+30:[ empty ]
+31:[ empty ]
+32:[ empty ]
+33:[33 rika CS 20 ]
+34:[ empty ]
+35:[ empty ]
+36:[ empty ]
+
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+1
+What is the key to add? 20
+What is the name?Jeff
+What is the department?CS
+What is the age? 33
+Added the element in slot 20
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+2
+What is the key to find? 20
+Found this:
+20 mary CIS 18
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+3
+What is the key to find? 20
+Found it and deleted it from slot:1
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+4
+The current contents are: 
+0:[ empty ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ empty ]
+6:[ empty ]
+7:[ empty ]
+8:[8 a CS 21 45 b CIS 19 82 c IT 18 ]
+9:[ empty ]
+10:[ empty ]
+11:[ empty ]
+12:[ empty ]
+13:[ empty ]
+14:[ empty ]
+15:[ empty ]
+16:[ empty ]
+17:[17 john IT 19 ]
+18:[ empty ]
+19:[ empty ]
+20:[20 Jeff CS 33 ]
+21:[ empty ]
+22:[ empty ]
+23:[ empty ]
+24:[ empty ]
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ empty ]
+30:[ empty ]
+31:[ empty ]
+32:[ empty ]
+33:[33 rika CS 20 ]
+34:[ empty ]
+35:[ empty ]
+36:[ empty ]
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+5
+Saved the updated table in newout.txt
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+6
+bye
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+.... in llist destructor...
+]0;mekae002@empress:~/HW/HW8[mekae002@empress HW8]$ exit
+exit
+
+Script done on Sat 27 Nov 2021 10:47:34 AM PST

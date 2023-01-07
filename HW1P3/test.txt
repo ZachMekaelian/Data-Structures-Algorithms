@@ -1,0 +1,17 @@
+Script started on Wed 22 Sep 2021 04:04:33 PM PDT
+]0;mekae002@empress:~/HW/HW1P3[?1034h[mekae002@empress HW1P3]$ g++ mat.cpp
+]0;mekae002@empress:~/HW/HW1P3[mekae002@empress HW1P3]$ ls
+[0m[01;32ma.out[0m  lines.txt  mat.cpp  table.txt  ,test.txt
+]0;mekae002@empress:~/HW/HW1P3[mekae002@empress HW1P3]$ ./a.out
+reading from lines.txt
+0:- - - |- - - |- - - |- - - |
+1:- - - |- - - |- - - |- - - |
+2:- - - |- - - |- - - |- - - |
+saving the table in table.txt
+0 a - - - 
+1 b - - - 
+2 c - - - 
+]0;mekae002@empress:~/HW/HW1P3[mekae002@empress HW1P3]$ exit
+exit
+
+Script done on Wed 22 Sep 2021 04:05:04 PM PDT

@@ -1,0 +1,10 @@
+Script started on Sat 20 Nov 2021 11:45:05 PM PST
+]0;mekae002@empress:~/HW/HW7[?1034h[mekae002@empress HW7]$ exg++ dgraph.cpp hw7client.cpp
+[01m[Khw7client.cpp:11:19:[m[K [01;31m[Kfatal error: [m[Kstack.h: No such file or directory
+ #include "stack.h"
+[01;32m[K                   ^[m[K
+compilation terminated.
+]0;mekae002@empress:~/HW/HW7[mekae002@empress HW7]$ exit
+exit
+
+Script done on Sat 20 Nov 2021 11:45:18 PM PST

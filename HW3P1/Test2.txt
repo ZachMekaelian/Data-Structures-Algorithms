@@ -1,0 +1,172 @@
+Script started on Sat 16 Oct 2021 11:43:23 PM PDT
+]0;mekae002@empress:~/HW/HW3[?1034h[mekae002@empress HW3]$ g++ HW3P1client.cpp llist.cpp
+[01m[KHW3P1client.cpp:[m[K In function ‘[01m[Kvoid caseOne()[m[K’:
+[01m[KHW3P1client.cpp:64:5:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’)
+    **
+[01;32m[K     ^[m[K
+[01m[KHW3P1client.cpp:[m[K At global scope:
+[01m[KHW3P1client.cpp:134:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+   cout << "Step" << c << " insert 0th" << endl; c++;
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:134:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+   cout << "Step" << c << " insert 0th" << endl; c++;
+[01;32m[K                                                 ^[m[K
+[01m[KHW3P1client.cpp:139:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+   cout << "Step " << c << endl; c++;
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:139:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+   cout << "Step " << c << endl; c++;
+[01;32m[K                                 ^[m[K
+[01m[KHW3P1client.cpp:140:3:[m[K [01;31m[Kerror: [m[K‘[01m[KL[m[K’ does not name a type
+   L.displayAll(); 
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:143:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+   cout << "Step " << c << " delete 1st" << endl; c++;
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:143:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+   cout << "Step " << c << " delete 1st" << endl; c++;
+[01;32m[K                                                  ^[m[K
+[01m[KHW3P1client.cpp:144:3:[m[K [01;31m[Kerror: [m[K‘[01m[KL[m[K’ does not name a type
+   L.deleteIth(1, x); cout << "removed " << x << endl;
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:144:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+   L.deleteIth(1, x); cout << "removed " << x << endl;
+[01;32m[K                      ^[m[K
+[01m[KHW3P1client.cpp:147:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+   cout << "Step " << c << " delete 6th" << endl; c++;
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:147:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+   cout << "Step " << c << " delete 6th" << endl; c++;
+[01;32m[K                                                  ^[m[K
+[01m[KHW3P1client.cpp:148:3:[m[K [01;31m[Kerror: [m[K‘[01m[KL[m[K’ does not name a type
+   L.deleteIth(6, x);
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:149:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+   cout << "Removed: " << x << endl;
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:152:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+     cout << "Step " << c << " delete 3rd" << endl; c++;
+[01;32m[K     ^[m[K
+[01m[KHW3P1client.cpp:152:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+     cout << "Step " << c << " delete 3rd" << endl; c++;
+[01;32m[K                                                    ^[m[K
+[01m[KHW3P1client.cpp:153:5:[m[K [01;31m[Kerror: [m[K‘[01m[KL[m[K’ does not name a type
+     L.deleteIth(3, x);
+[01;32m[K     ^[m[K
+[01m[KHW3P1client.cpp:154:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+     cout << "Removed: " << x << endl;
+[01;32m[K     ^[m[K
+[01m[KHW3P1client.cpp:155:5:[m[K [01;31m[Kerror: [m[K‘[01m[KL[m[K’ does not name a type
+     L.displayAll();
+[01;32m[K     ^[m[K
+[01m[KHW3P1client.cpp:158:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+     cout << "Step " << c << " delete 5th" << endl; c++;
+[01;32m[K     ^[m[K
+[01m[KHW3P1client.cpp:158:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+     cout << "Step " << c << " delete 5th" << endl; c++;
+[01;32m[K                                                    ^[m[K
+[01m[KHW3P1client.cpp:159:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Ktry[m[K’
+     try { L.deleteIth(5, x); }
+[01;32m[K     ^[m[K
+[01m[KHW3P1client.cpp:160:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+     catch(OutOfRange C){ cout << "error (out of range)" << endl; }
+[01;32m[K     ^[m[K
+[01m[KHW3P1client.cpp:163:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+   cout << "Step " << c << " delete 0th" <<  endl; c++;
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:163:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+   cout << "Step " << c << " delete 0th" <<  endl; c++;
+[01;32m[K                                                   ^[m[K
+[01m[KHW3P1client.cpp:164:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Ktry[m[K’
+   try {L.deleteIth(5, x);}
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:165:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+   catch(OutOfRange C){cout << "error (out of range)" << endl;}
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:168:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+   cout << "Step " << c << endl; c++;
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:168:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+   cout << "Step " << c << endl; c++;
+[01;32m[K                                 ^[m[K
+[01m[KHW3P1client.cpp:169:3:[m[K [01;31m[Kerror: [m[K‘[01m[KL[m[K’ does not name a type
+   L.displayAll();
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:172:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+   cout << "Step " << c << " delete all" << endl; c++;
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:172:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+   cout << "Step " << c << " delete all" << endl; c++;
+[01;32m[K                                                  ^[m[K
+[01m[KHW3P1client.cpp:176:8:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K<<[m[K’ token
+   cout << "Step " << c << endl; c++;
+[01;32m[K        ^[m[K
+[01m[KHW3P1client.cpp:176:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+   cout << "Step " << c << endl; c++;
+[01;32m[K                                 ^[m[K
+[01m[KHW3P1client.cpp:177:3:[m[K [01;31m[Kerror: [m[K‘[01m[KL[m[K’ does not name a type
+   L.displayAll();
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:180:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+   cout << "Step " << c << " insert 0th" << endl;; c++;
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:180:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+   cout << "Step " << c << " insert 0th" << endl;; c++;
+[01;32m[K                                                   ^[m[K
+[01m[KHW3P1client.cpp:181:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Ktry[m[K’
+   try {L.deleteIth(5, x);}
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:182:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+   catch (OutOfRange C){cout << "error (out of range)" << endl;}
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:185:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+   cout << "Step " << c << " deleteFront" << endl; c++;
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:185:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+   cout << "Step " << c << " deleteFront" << endl; c++;
+[01;32m[K                                                   ^[m[K
+[01m[KHW3P1client.cpp:186:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Ktry[m[K’
+   try {L.deleteIth(5, x);}
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:187:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+   catch (OutOfRange C){cout << "error (out of range)" << endl;}
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:190:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+   cout << "Step " << c << " delete 2nd" << endl; c++;
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:190:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+   cout << "Step " << c << " delete 2nd" << endl; c++;
+[01;32m[K                                                  ^[m[K
+[01m[KHW3P1client.cpp:191:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Ktry[m[K’
+   try {L.deleteIth(5, x); }
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:192:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K/[m[K’ token
+  /catch (OutOfRange C){cout << "error (out of range)" << endl;}
+[01;32m[K  ^[m[K
+[01m[KHW3P1client.cpp:194:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ does not name a type
+   cout << "Step " << c << " deleteRear" <<  endl; c++;
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:194:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+   cout << "Step " << c << " deleteRear" <<  endl; c++;
+[01;32m[K                                                   ^[m[K
+[01m[KHW3P1client.cpp:195:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Ktry[m[K’
+   try {L.deleteIth(5, x); }
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:196:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+   catch (OutOfRange C){cout << "error (out of range)" << endl;}
+[01;32m[K   ^[m[K
+[01m[KHW3P1client.cpp:198:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ } // end of case 2
+[01;32m[K ^[m[K
+[01m[Kllist.cpp:[m[K In member function ‘[01m[Kvoid llist::displayAll()[m[K’:
+[01m[Kllist.cpp:61:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+   } else {
+[01;32m[K     ^[m[K
+[01m[Kllist.cpp:[m[K At global scope:
+[01m[Kllist.cpp:67:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ }  // be sure to display horizontally in [  ] with
+[01;32m[K ^[m[K
+]0;mekae002@empress:~/HW/HW3[mekae002@empress HW3]$ exit
+exit
+
+Script done on Sat 16 Oct 2021 11:45:57 PM PDT

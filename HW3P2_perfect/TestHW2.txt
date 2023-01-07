@@ -1,0 +1,44 @@
+Script started on Sat 30 Oct 2021 02:55:59 PM PDT
+]0;mekae002@empress:~/HW/HW3P2_perfect[?1034h[mekae002@empress HW3P2_perfect]$ ls
+HW3P2client.cpp  llist.cpp  llist.h  slist.cpp  slist.h  ,TestHW2.txt
+]0;mekae002@empress:~/HW/HW3P2_perfect[mekae002@empress HW3P2_perfect]$ g++ HW3P2client.cpp llist.cpp slist.cpp
+]0;mekae002@empress:~/HW/HW3P2_perfect[mekae002@empress HW3P2_perfect]$ ./a.out
+... in Allist constructor...
+slist constructor: 
+Step 1 addFront
+Step 2 addRear
+Step 3
+[4 6 7 8 ]
+Step 4
+Found 6 in location 2
+Step 5 replace 6
+Step 6
+[4 0 7 8 ]
+Step 7
+Found 8 in location 4
+Step 8 replace 8
+Step 9
+[4 0 7 2 ]
+Step 10
+ Found 5 in location 0
+Step 11 replace 7
+ERROR: Bad position was given
+.... in llist destructor...
+---- First Part testing done ----- 
+... in Allist constructor...
+slist constructor: 
+... in Allist constructor...
+slist constructor: 
+true
+false
+false
+true
+false
+false
+false
+.... in llist destructor...
+.... in llist destructor...
+]0;mekae002@empress:~/HW/HW3P2_perfect[mekae002@empress HW3P2_perfect]$ exit
+exit
+
+Script done on Sat 30 Oct 2021 02:57:27 PM PDT

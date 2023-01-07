@@ -1,0 +1,155 @@
+Script started on Thu 28 Oct 2021 01:35:46 AM PDT
+]0;mekae002@empress:~/HW/HW3P1_perfect[?1034h[mekae002@empress HW3P1_perfect]$ ls
+HW3P1client.cpp  llist.cpp  llist.h  ,Test1.txt
+]0;mekae002@empress:~/HW/HW3P1_perfect[mekae002@empress HW3P1_perfect]$ g++HW3P!clien[C[C HW3P!clien[C[C[C[C[[1Pclie1clie[C[C[C[C[C[C[K.cpp llist.cpp[K
+]0;mekae002@empress:~/HW/HW3P1_perfect[mekae002@empress HW3P1_perfect]$ ./a.out
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>1
+CASE 1: Basic --------------- 
+... in Allist constructor...
+Step 1
+It is empty
+Step 2
+[ empty ]
+Step 3 adding 1 2 3 4
+Step 4
+[1 2 3 4 ]
+Step 5 deleteFront twice
+Removed: 1
+Removed: 2
+Step 6
+[3 4 ]
+Step 7
+It is not empty
+Step 8 deleteRear twice
+Removed: 4
+Removed: 3
+[ empty ]
+Step 9
+It is empty
+Step 10
+Step 11
+[5 6 8 9 ]
+Step 12 deleteRear all
+Removed: 9
+Removed: 8
+Removed: 6
+Removed: 5
+Step 13
+[ empty ]
+.... in llist destructor...
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>2
+Case 2: Insert and Delete ------------
+... in Allist constructor...
+Step 1 addFront 9 8 6 5
+Step 2
+[5 6 8 9 ]
+Step 3 insert first 4
+[4 5 6 8 9 ]
+Step 4 insert 4th 7
+[4 5 6 7 8 9 ]
+Step 5 insert 7th 10
+[4 5 6 7 8 9 10 ]
+Step 6 insert 9th
+error(out of range)
+Step7 insert 0th
+error(out of range)
+Step 8
+[4 5 6 7 8 9 10 ]
+Step 9 delete 1st
+removed 4
+[5 6 7 8 9 10 ]
+Step 10 delete 6th
+Removed: 10
+[5 6 7 8 9 ]
+Step 11 delete 3rd
+Removed: 7
+[5 6 8 9 ]
+Step 12 delete 5th
+error (out of range)
+Step 13 delete 0th
+error (out of range)
+Step 14
+[5 6 8 9 ]
+Step 15 delete all
+Removed: 9
+Removed: 8
+Removed: 6
+Removed: 5
+Step 16
+[ empty ]
+Step 17 insert 0th
+error (out of range)
+Step 18 deleteFront
+error (underflow)
+Step 19 delete 2nd
+error (out of range)
+Step 20 deleteRear
+error (underflow)
+.... in llist destructor...
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>3
+Case 3: Copy Constructor and = -------
+... in Allist constructor...
+... in Allist constructor...
+Step1
+L1: [1 2 3 4 5 ]
+Step2
+in copy test
+[1 2 3 4 5 ]
+[6 1 2 3 4 5 ]
+finished
+.... in llist destructor...
+-- After copytest --- 
+Step3
+L1: [1 2 3 4 5 ]
+-- Testing operator overloading ---
+Step 4 Gets
+Step 5
+L1: [1 2 3 4 5 ]
+Step 6
+Step 7
+L2: [7 8 9 10 ]
+Step 8 Gets
+Step 9
+L2: [1 2 3 4 5 ]
+Step 10
+Step 11
+L1 :[1 2 3 4 ]
+Step 12
+L1: [1 2 3 4 ]
+Step 13
+L2: [1 2 3 4 5 ]
+.... in llist destructor...
+.... in llist destructor...
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>0
+]0;mekae002@empress:~/HW/HW3P1_perfect[mekae002@empress HW3P1_perfect]$ exit
+exit
+
+Script done on Thu 28 Oct 2021 01:37:45 AM PDT

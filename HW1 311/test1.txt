@@ -1,0 +1,25 @@
+Script started on Sat 11 Sep 2021 11:17:27 PM PDT
+]0;mekae002@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[?1034h[mekae002@empress HW1P1_stack]$ g++ stack[K.cpp stacktest.cpp
+[01m[Kstack.cpp:[m[K In constructor ‘[01m[Kstack::stack()[m[K’:
+[01m[Kstack.cpp:25:15:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstack::~stack()[m[K’
+ stack::~stack()
+[01;32m[K               ^[m[K
+[01m[Kstack.cpp:25:15:[m[K [01;36m[Knote: [m[Kcandidate is:
+In file included from [01m[Kstack.cpp:18:0[m[K:
+[01m[Kstack.h:44:3:[m[K [01;36m[Knote: [m[Kstack::~stack()
+   ~stack();  // destructor  to destroy an object
+[01;32m[K   ^[m[K
+[01m[Kstack.h:44:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[Kstack.cpp:26:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+ { // nothing 
+[01;32m[K ^[m[K
+[01m[Kstack.cpp:31:1:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+ { if ( top == -1) return true; else return false; )
+[01;32m[K ^[m[K
+[01m[Kstack.cpp:78:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ }
+[01;32m[K ^[m[K
+]0;mekae002@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[mekae002@empress HW1P1_stack]$ exit
+exit
+
+Script done on Sat 11 Sep 2021 11:18:33 PM PDT

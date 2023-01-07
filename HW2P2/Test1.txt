@@ -1,0 +1,70 @@
+Script started on Sat 02 Oct 2021 11:20:42 PM PDT
+]0;mekae002@empress:~/HW/HW2P2[?1034h[mekae002@empress HW2P2]$ g++ partition.cpp
+]0;mekae002@empress:~/HW/HW2P2[mekae002@empress HW2P2]$ g++ partition.cpexit./a.out
+How many elements? (must be less than 10) 7
+Enter elements one per line..
+1
+7
+5
+6
+4
+2
+3
+Ok the pivot is 1
+Results...
+1|356427
+]0;mekae002@empress:~/HW/HW2P2[mekae002@empress HW2P2]$ ./a.oug++ partition.cp[10P./a.ou[K./a.out
+How many elements? (must be less than 10) 8
+Enter elements one per line..
+8
+7
+6
+5
+4
+3
+2
+1
+Ok the pivot is 8
+Results...
+87654320|
+]0;mekae002@empress:~/HW/HW2P2[mekae002@empress HW2P2]$ ./a.out
+How many elements? (must be less than 10) 8
+Enter elements one per line..
+5
+1
+4
+3
+6
+7
+8
+2
+Ok the pivot is 5
+Results...
+51432|687
+]0;mekae002@empress:~/HW/HW2P2[mekae002@empress HW2P2]$ ./a.out
+How many elements? (must be less than 10) 6
+Enter elements one per line..
+4
+3
+1
+2
+7
+5
+Ok the pivot is 4
+Results...
+4312|57
+]0;mekae002@empress:~/HW/HW2P2[mekae002@empress HW2P2]$ ./a.out
+How many elements? (must be less than 10) 5
+Enter elements one per line..
+2
+6
+4
+1
+7
+Ok the pivot is 2
+Results...
+21|764
+]0;mekae002@empress:~/HW/HW2P2[mekae002@empress HW2P2]$ exit
+exit
+
+Script done on Sat 02 Oct 2021 11:24:55 PM PDT

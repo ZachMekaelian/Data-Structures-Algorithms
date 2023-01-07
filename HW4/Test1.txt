@@ -1,0 +1,104 @@
+Script started on Sun 31 Oct 2021 11:49:03 PM PDT
+]0;mekae002@empress:~/HW/HW4[?1034h[mekae002@empress HW4]$ g+[1P/cs/recordhw TestHW2.tlscd HW3P2_perfelscd H[3Pcd HW3P2_perfels/cs/recordhw TestHW2.tlsg++[1P/cs/recordhw TestHW2.tlscd HW3P2_perfelscd H[3Pex[2Pcd H[3Pcd HW3P2_perfels/cs/recordhw TestHW2.tlsg++[1P/cs/recordhw TestHW2.tlscd HW3P2_perfelscd H[3Pex./a.oug++ HW3P2client.cpp llist.cpp slist.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls/cs/recordhw Test1.tls/cs/recordhw Test1.tlsg++ HW3P2client.cpp llist.cpp slist.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./a.out[[3Pex[2Pcd H[3Pcd HW3P2_perfels/cs/recordhw TestHW2.tlsg++ binstree.cpp hw4client.cpp
+]0;mekae002@empress:~/HW/HW4[mekae002@empress HW4]$ ./a.out
+===  Starting a new tree with many nodes ====
+Trying to insert 1
+...adding 1 as the root
+Trying to insert 3
+...going to the right
+...adding 3 as the right child of 1
+3 now points UP to 1
+Trying to insert 5
+...going to the right
+...going to the right
+...adding 5 as the right child of 3
+5 now points UP to 3
+Trying to insert 7
+...going to the right
+...going to the right
+...going to the right
+...adding 7 as the right child of 5
+7 now points UP to 5
+Trying to insert 9
+...going to the right
+...going to the right
+...going to the right
+...going to the right
+...adding 9 as the right child of 7
+9 now points UP to 7
+Trying to insert 10
+...going to the right
+...going to the right
+...going to the right
+...going to the right
+...going to the right
+...adding 10 as the right child of 9
+10 now points UP to 9
+Trying to insert 8
+...going to the right
+...going to the right
+...going to the right
+...going to the right
+...going to the left
+...adding 8 as the left child of 9
+8 now points UP to 9
+Trying to insert 6
+...going to the right
+...going to the right
+...going to the right
+...going to the left
+...adding 6 as the left child of 7
+6 now points UP to 7
+Trying to insert 4
+...going to the right
+...going to the right
+...going to the left
+...adding 4 as the left child of 5
+4 now points UP to 5
+Trying to insert 2
+...going to the right
+...going to the left
+...adding 2 as the left child of 3
+2 now points UP to 3
+--- Elements in the IN order: ---
+Root is: 1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+---------------------------------
+Searching .... 
+found 5
+found 11
+found 0
+Continue? Press any keys
+===  Starting a new tree with 3 nodes ====
+Trying to insert 1
+...adding 1 as the root
+Trying to insert 2
+...going to the right
+...adding 2 as the right child of 1
+2 now points UP to 1
+Trying to insert 3
+...going to the right
+...going to the right
+...adding 3 as the right child of 2
+3 now points UP to 2
+Trying to delete 7
+...going to the right
+...going to the right
+...going to the right
+Did not find the key in the tree.
+Trying to delete 1
+...removing 1
+Segmentation fault
+]0;mekae002@empress:~/HW/HW4[mekae002@empress HW4]$ exit
+exit
+
+Script done on Sun 31 Oct 2021 11:50:09 PM PDT
